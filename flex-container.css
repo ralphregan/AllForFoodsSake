@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.flex-container{
+    display: flex; 
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    padding-inline-start: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+  
+    
+    
+
+    
+}
+.flex-container .flex-1 >ul >li{
+    padding: 8px;
+   
+ 
+    
+}
+a{
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 8px;
+    font-size: 20px;
+}
+.flex-2{
+    padding: 4px 32px   ;
+}
+.flex-3>ul>li {
+
+padding: 8px;
+}

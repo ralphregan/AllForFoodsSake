@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=New+Amsterdam&family=Oswald:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header .container{
+    display: flex;
+    background-image: url("https://www.hdwallpapers.in/download/dark_blue_purple_glare_lines_background_hd_background-HD.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    color: aliceblue;
+    font-family: "Oswald", sans-serif;
+   
+}
+.leftside{
+    display:flex;
+
+    
+
+}
+.leftside >h1{
+   font-size: 20px;
+   padding-left: 8px;
+
+}
+
+.leftside >ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline-start: 20px;
+    
+    list-style: none;
+    
+    
+}
+.leftside>ul>li {
+    padding-right: 16px;
+   
+}
+.rightside{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-right: 8px;
+}
+.rightside .profile-pix{
+    border-radius: 50%;
+    background-color: aliceblue;
+    width: 48px;
+    height: 48px;
+    margin-inline-start: 15px;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 5);
+    padding: 4px;
+    margin: 8px 4px;
+}
+.rightside .note{
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 5);
+    border-radius: 8px;
+    padding: 5px;
+}
+.flex-title{
+    margin-bottom:32px;
+    text-align: center;
+}
+section {
+    /* border: 4px solid brown;  */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center; 
+   align-content: center;
+   align-items: center;
+   gap: 52px;
+   margin: 0;
+   padding: 0;
+   
+    
+   
+  
+}
+.Orange, .Banana,.Mango{
+ /* margin-left: 52px; */
+
+}
+section >div{
+    flex-shrink: 1;
+    max-width: 200px;
+   
+    /* border: 1px solid rgb(42, 165, 52); */
+    
+
+}
+
+
+section >div >p{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border: 4px solid rgb(42, 165, 153); */
+    
+   margin-top: 32px;
+  
+  
+}
+
